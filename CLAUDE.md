@@ -6,7 +6,7 @@ O código será explicado em vídeo e em documento, então **clareza vale mais q
 
 ## Regras técnicas
 
-- Python 3.10+ e **apenas a biblioteca padrão** (proibido `pip install`).
+- Python 3.9+ e **apenas a biblioteca padrão** (proibido `pip install`).
 - Estilo **procedural**: funções, listas e dicionários. **Não usar classes.**
 - Código didático: funções curtas, uma responsabilidade por função, sem truques.
 - Nomes de variáveis e funções **em português**, em `snake_case`.

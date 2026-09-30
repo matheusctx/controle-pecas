@@ -84,22 +84,24 @@ caixa = {"numero": 2, "pecas": ["P011", "P012", "..."], "fechada": False}
 
 ## 4. Como rodar
 
-**1. Verifique se o Python está instalado (precisa ser 3.10 ou superior):**
+**1. Verifique se o Python está instalado:**
 
 ```
 python3 --version
 ```
 
-No Windows, use `py --version`. Se o comando não existir ou a versão for menor que 3.10, instale o Python em <https://www.python.org/downloads/>.
+No Windows, use `py --version`.
+
+O programa usa apenas a biblioteca padrão e roda a partir do Python 3.9. Recomenda-se o Python 3.12 ou mais recente: as versões 3.9 e 3.10 já chegaram (ou estão chegando) ao fim do suporte oficial e não recebem mais correções de segurança. Instale a versão atual em <https://www.python.org/downloads/>.
 
 **2. Obtenha o projeto:**
 
 ```
-git clone <URL-DO-REPOSITÓRIO>
+git clone https://github.com/matheusctx/controle-pecas.git
 cd controle-pecas
 ```
 
-(Substitua `<URL-DO-REPOSITÓRIO>` pelo endereço do repositório. Sem Git, baixe o ZIP e extraia a pasta.)
+Sem Git, baixe o ZIP do repositório e extraia a pasta.
 
 **3. Execute:**
 
@@ -123,7 +125,7 @@ São 14 aprovadas (incluindo os limites 95, 105, 10 e 20) e 11 reprovadas por mo
 python3 -m unittest -v
 ```
 
-Testado com Python 3.9 e 3.12.
+Testado com Python 3.9 (versão legada, sem suporte oficial) e 3.12.
 
 ## 5. Exemplos reais de execução
 
