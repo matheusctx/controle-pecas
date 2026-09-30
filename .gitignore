@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# dados gerados pelo programa
+pecas.json
+pecas.json.tmp
